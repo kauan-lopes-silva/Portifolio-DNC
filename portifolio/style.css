@@ -1,0 +1,162 @@
+body{
+    margin-left: 15%;
+    margin-right: 15%;
+    font-family: "Poppins", sans-serif;
+}
+
+p{
+    color: #575455;
+}
+
+h3{
+    font-size: 20px;
+    font-weight: 600;
+}
+/*  MENU INICIAL */
+.container{
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 1fr;
+    margin-top: 50px;
+}
+
+#header h2{
+    text-decoration: underline;
+    font-size: 28px;
+    font-weight: 600;
+}
+
+
+
+
+#menu{
+    display: grid;
+    grid-auto-flow: column;
+    text-align: right;
+}
+
+
+/* APRESENTAÇÃO */
+
+
+#primeiroParagrafo{
+    margin-bottom: 60px;
+}
+
+#presentationTitle{
+    font-size: 55px;
+}
+
+#presentationImg{
+    margin-left: 50px;
+}
+
+#presentationImg img{
+    width: 100%;
+}
+
+#botao1{
+    padding: 15px 35px;
+    background-color: #1F7CFF;
+    height: 50px;
+    border-style: none;
+    border-radius: 50px;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+a{
+    text-decoration: none;
+    color: #575455;
+}
+
+
+/* SKILS */
+
+
+#skils{
+    margin-top: 70px;
+    align-items: center;
+}
+
+.card{
+    text-align: end;
+}
+
+
+/* MEUS SERVIÇOS */
+
+
+.servicos{
+    text-align: center;
+    margin-top: 150px;
+    margin-bottom: 50px;
+}
+
+
+.servicos h3{
+    color: #F75C4E;
+}
+
+/* DESENVOLVIMENTOS */
+
+.dev{
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+
+/* AGENDAMENTOS */
+
+
+#services{
+    margin-top: 30px;
+    text-align: left;
+    margin-left: 100px;
+}
+
+button{
+    padding: 15px 65px;
+    background-color: #1F7CFF;
+    height: 50px;
+    border-style: none;
+    border-radius: 50px;
+    font-size: 16px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+input{
+    background-color: #F5F6FB;
+    width: 400px;
+    height: 50px;
+    margin: 40px 0px;
+    border-style: none;
+    border-radius: 50px;
+    font-size: 16px;
+    padding-left: 30px;
+    outline: none;
+}
+
+
+/* MEUS SERVIÇOS */
+
+#meusServicos{
+    text-align: left;
+    margin: 150px 0px 70px 0px;
+}
+
+
+#finalCards{
+    margin-bottom: 300px;
+}
+
+
+#card-2{
+    text-align: center;
+}
+
+#card-3{
+    text-align: right;
+}
